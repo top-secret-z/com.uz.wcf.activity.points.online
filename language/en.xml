@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.profile.pointsOnline"><![CDATA[Activity points Online]]></item>
+		<item name="wcf.acp.option.user_pointsOnline_substract"><![CDATA[Substract Points]]></item>
+		<item name="wcf.acp.option.user_pointsOnline_substract.description"><![CDATA[Online points will be subtracted for each day a user was not online.]]></item>
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.activityPoint.objectType.com.uz.wcf.activityPointEvent.online"><![CDATA[Daily Online]]></item>
+	</category>
+</language>

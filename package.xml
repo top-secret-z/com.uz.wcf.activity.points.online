@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.uz.wcf.activity.points.online" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/package.xsd">
+	<packageinformation>
+		<packagename>Activity Points Online</packagename>
+		<packagedescription><![CDATA[Award activity points to users for being online (points per day).]]></packagedescription>
+		<packagename language="de">Aktivitätspunkte Online</packagename>
+		<packagedescription language="de"><![CDATA[Ermöglicht die Vergabe von Aktivitätspunkten an Benutzer, die online sind (Punkte je Tag).]]></packagedescription>
+		<version>5.5.0</version>
+		<date>2022-05-10</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Zaydowicz</author>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+	
+	<instructions type="install">
+		<instruction type="cronjob">cronjob.xml</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="objectType">objectType.xml</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="sql" run="standalone">install.sql</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="5.3.0">
+		<instruction type="file">files.tar</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="5.4.0">
+		<instruction type="file">files.tar</instruction>
+	</instructions>
+</package>
