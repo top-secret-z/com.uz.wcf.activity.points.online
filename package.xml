@@ -7,6 +7,7 @@
         <packagedescription language="de"><![CDATA[Ermöglicht die Vergabe von Aktivitätspunkten an Benutzer, die online sind (Punkte je Tag).]]></packagedescription>
         <version>5.5.1</version>
         <date>2022-09-18</date>
+        <license><![CDATA[LGPL <https://opensource.org/licenses/lgpl-license.php>]]></license>
     </packageinformation>
 
     <authorinformation>
