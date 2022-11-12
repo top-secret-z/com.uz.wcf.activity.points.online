@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/cronjob.xsd">
-	<import>
-		<cronjob name="com.uz.points.online.online">
-			<classname>wcf\system\cronjob\PointsOnlineActivityCronjob</classname>
-			<description><![CDATA[Update the last online time for activity points]]></description>
-			<description language="de"><![CDATA[Aktualisiert die letzte Online-Zeit für Aktivitätspunkte]]></description>
-			<startminute>*/5</startminute>
-			<starthour>*</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-		<cronjob name="com.uz.points.online.points">
-			<classname>wcf\system\cronjob\PointsOnlinePointsCronjob</classname>
-			<description><![CDATA[Assigns activity points for being online daily]]></description>
-			<description language="de"><![CDATA[Vergibt Aktivitätspunkte für tägliche Online-Zeit]]></description>
-			<startminute>10</startminute>
-			<starthour>1</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-	</import>
+    <import>
+        <cronjob name="com.uz.points.online.online">
+            <classname>wcf\system\cronjob\PointsOnlineActivityCronjob</classname>
+            <description><![CDATA[Update the last online time for activity points]]></description>
+            <description language="de"><![CDATA[Aktualisiert die letzte Online-Zeit für Aktivitätspunkte]]></description>
+            <startminute>*/5</startminute>
+            <starthour>*</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+        <cronjob name="com.uz.points.online.points">
+            <classname>wcf\system\cronjob\PointsOnlinePointsCronjob</classname>
+            <description><![CDATA[Assigns activity points for being online daily]]></description>
+            <description language="de"><![CDATA[Vergibt Aktivitätspunkte für tägliche Online-Zeit]]></description>
+            <startminute>10</startminute>
+            <starthour>1</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+    </import>
 </data>
